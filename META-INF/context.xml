@@ -1,0 +1,17 @@
+<Context path="/duwngh850" docBase="www">
+<Resource
+    name="jdbc/duwngh850"
+    auth="Container"
+    type="javax.sql.DataSource"
+    driverClassName="com.mysql.jdbc.Driver"
+    loginTimeout="10"
+    validationQuery="SELECT 1 FROM DUAL"
+    maxWait="5000"
+    username="duwngh850"
+    password="s51523235"
+    testOnBorrow="true"
+    url="jdbc:mysql://localhost/duwngh850"/>
+<ResourceLink type="javax.sql.data.DataSource"
+    name="jdbc/duwngh850"
+    global="jdbc/duwngh850"/>
+</Context>
